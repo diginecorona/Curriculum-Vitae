@@ -7,7 +7,7 @@
 |Name|清水　陽平 (shimizu yohei)|
 
 ## スキル
-### 言語/ライブラリ・フレームワーク
+### 言語/フレームワーク
 - Python
 - Ruby
   - Ruby on Rails
