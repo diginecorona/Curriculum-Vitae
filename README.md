@@ -1,4 +1,4 @@
-# Curriclum Vitae
+# Curriculum Vitae
 
 最終更新 2019/11/12
 
