@@ -33,7 +33,7 @@
   - shell script
 - **フレームワーク/ライブラリ**
   - Ruby on Rails
-- jQuery
+  - jQuery
   
 - **ツール、その他**
   - Amazon Web Services
@@ -138,7 +138,7 @@
 
 10. **Chrome Extension改修（使用スキル: JavaScript/jQuery/Ruby/Ruby on Rails）**
 
-    web上の情報をスクレイピングしてDBに保存するChrome Extensionがあり、情報取得部分とDBに保存するAPI部分の改修を行った。
+    web上の情報をスクレイピングしてDBに保存するChrome Extensionにおいて、情報取得部分とDBに保存するAPI部分の改修を行った。
 
 ##### その他
 
