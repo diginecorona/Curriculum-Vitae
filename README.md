@@ -7,8 +7,7 @@
 |key|value|
 |---|-----|
 |Name|清水　陽平 (Yohei Shimizu)|
-|Qiita|https://qiita.com/digineko|
-|GitHub|https://github.com/diginecorona|
+| GitHub | https://github.com/diginecorona |
 
 ## School/Job history
 
