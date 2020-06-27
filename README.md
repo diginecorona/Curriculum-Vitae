@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-最終更新 2020/02/07
+最終更新 2020/06/27
 
 ## Basic
 
@@ -27,28 +27,47 @@
   - Python
   - Ruby
   - Go
-  - MySQL
   - JavaScript / Node.js
   - shell script
-- **フレームワーク/ライブラリ**
-  - Ruby on Rails
-  - jQuery
-  
-- **ツール、その他**
-  - Amazon Web Services
-      - CodeBuild
-      - CodeCommit
-      - RDS
-      - VPC
-      - Lambda
-  - Google Cloud Platform
-    - Compute Engine
-  - Docker
-  - Re:dash
-  - Node-RED
-  - JupyterLab
-  - Slack
-  - GitHub
+  - MySQL
+- **フレームワーク/ライブラリ/モジュール**
+  - Python
+    - SQLAlchemy
+    - データ分析系
+      - Pandas
+      - Numpy
+    - 機械学習系
+      - scikit-learn
+      - Keras
+  - Ruby
+    - Ruby on Rails
+  - JavaScript / Node.js
+    - Sails.js
+    - jQuery
+  - Go
+    - GORM
+- **ツール**
+  - クラウドコンピューティングサービス
+    - Amazon Web Services
+        - CodeBuild
+        - CodeCommit
+        - RDS
+        - VPC
+        - Lambda
+    - Google Cloud Platform
+      - Compute Engine
+    - IDCF Cloud
+  - 仮想環境
+    - Docker
+    - Vagrant
+  - データ処理
+    - Embulk
+    - Re:dash
+  - その他
+    - Node-RED
+    - JupyterLab
+    - Slack
+    - GitHub
 - **自然言語**
 
   - 日本語
@@ -75,7 +94,8 @@
 | 2019/04<br />~<br />2019/06 | 1. 自社サービス用API作製<br />2. 機械学習モデル改良<br />3. 機械学習周辺システム構築、データ出し |
 | 2019/07<br />~<br />2019/09 | 4. 賃貸物件棟名寄せ<br />5. 自社サービスデータ取得用クエリ作製 |
 | 2019/10<br />~<br />2019/12 | 6. 物件データパース用batch処理作製<br />7. 物件情報拡充のためのデータ処理<br />8. 物件画像並び替えロジック追加 |
-| 2020/01<br />~              | 9. 検索おすすめ順アルゴリズム作製<br />10. Chrome Extension改修 |
+| 2020/01<br />~<br />2020/03 | 9. 検索おすすめ順アルゴリズム作製<br />10. Chrome Extension改修<br />11. 物件情報コンバートシステム作成 |
+| 2020/04<br />~<br />2020/06 | 11. 物件情報コンバートシステム作成<br />12. 【Web会議ツール開発協力】webサーバー増設<br />13. 【Web会議ツール開発協力】MySQLサーバーレプリケーション |
 
 #### 概要
 
@@ -137,9 +157,27 @@
 
 10. **Chrome Extension改修（使用スキル: JavaScript/jQuery/Ruby/Ruby on Rails）**
 
-    web上の情報をスクレイピングしてDBに保存するChrome Extensionにおいて、情報取得部分とDBに保存するAPI部分の改修を行った。
+    web上の物件情報をスクレイピングしてDBに保存するChrome Extensionにおいて、情報取得部分とDBに保存するAPI部分の改修を行った。
+    
+    その結果手作業工数の削減を達成することができ、コスト削減に貢献した。
 
-##### その他
+11. **物件情報コンバートシステム作成（使用スキル: JavaScript/jQuery/Ruby/Ruby on Rails/Python/Go/AWS CodeBuild/Embulk）**
+
+    外部不動産サービスに自社物件を掲載できることになったため、外部不動産サービス様に自社物件データをコンバートするシステムを構築した。
+
+    外部不動産サービスにコンバートする際に物件データが不足していたため、不足している物件データ情報を追加取得し保存するよう改良した。
+
+12. **【Web会議ツール開発協力】webサーバー増設（使用スキル: JavaScript/Node.js/Sails.js/Vagrant/Docker）**
+
+    Web会議ツールを開発している企業において、webサーバー増設の協力を実施した。
+
+13. **【Web会議ツール開発協力】MySQLサーバーレプリケーション（使用スキル: IDCF Cloud/MySQL）**
+
+    開発協力先においてMySQLサーバーが1台のみの起動だったため、参照用サーバーを設置しレプリケーションを実施した。
+
+
+
+その他
 
 定期的な業務として下記に取り組んでいた。
 
